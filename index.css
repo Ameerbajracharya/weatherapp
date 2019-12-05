@@ -45,4 +45,7 @@ hr.below{
 }
 body{
 	background-image: url('https://i.gifer.com/2HgN.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
