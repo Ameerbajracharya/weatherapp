@@ -1,0 +1,48 @@
+.grey-jumbo {
+	margin-top: -30px;
+	border-radius: 0px !important;
+	height: auto;
+	background-size: cover;
+}
+hr.short{
+	width: 100px;
+	border-bottom: 2px solid #fff;
+}
+hr.below{
+	width: 50px;
+	border-bottom: 1px solid #fff;
+}
+.top{
+	background: transparent;
+	color: #fff;
+	border: 1px solid grey;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow:         inset 0 0 10px #000000;
+	border-radius: 0px !important;
+	height: 300px;
+	margin-top: 10%;
+}
+#info3{
+	font-size: 30px;
+	color: #ff00eb;
+}
+#info1,#info6{
+	font-size: 16px;
+	color: #ff00eb;
+}
+#info2,#info5{
+	font-size: 16px;
+	color:#0400ff !important;
+}
+#search{
+	border: 1px solid #092b40;
+	padding-left: 20px;
+	margin: auto; 
+}
+#search[placeholder]{
+	font-size: 15px;
+}
+body{
+	background-image: url('https://i.gifer.com/2HgN.gif');
+}
