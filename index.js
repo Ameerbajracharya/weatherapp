@@ -41,7 +41,6 @@ function weather(){
 		$('#info1').html(time);
 		$('#info2').html('Wind:' + wind + ' kmph');
 		$('#info3').html(temp + '&#8451');
-		$('.short').show();
 		$('#info5').html('Humidity: ' + humidity + '%');
 		var yes = true;
 		$('#switch').on('click',function(){
@@ -91,7 +90,6 @@ function weather(){
 // });
 $(document).ready(function(){
 	$('#search').focus();
-	$('.short').hide();
 	$('#switch').hide();
 	$('#search').off('keyup');
 	$('#search').on('keyup',function(){
